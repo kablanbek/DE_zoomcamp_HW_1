@@ -21,7 +21,7 @@ It includes:
 
 ### Core Pipeline Files
 
-#### [`pipeline/main.py`](`ingest_data.py`)
+#### [`ingest_data.py`](`pipeline/ingest_data.py`)
 Standalone ingestion script.
 
 Responsible for:
@@ -36,7 +36,7 @@ This script is the key ETL ingestion component.
 
 ### Docker and Environment Setup
 
-#### [`pipeline/Dockerfile`](`Dockerfile`)
+#### [`Dockerfile`](`pipeline/Dockerfile`)
 Defines the custom Docker image used for running the pipeline code.
 
 Includes:
@@ -47,7 +47,7 @@ Includes:
 
 ---
 
-#### [`pipeline/docker-compose.yaml`]('docker-compose.yaml')
+#### [`docker-compose.yaml`]('pipeline/docker-compose.yaml')
 Docker Compose configuration for running the full local stack.
 
 Spins up services such as:
