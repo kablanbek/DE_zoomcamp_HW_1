@@ -36,7 +36,7 @@ This script is the key ETL ingestion component.
 
 ### Docker and Environment Setup
 
-#### [`Dockerfile`](`pipeline/Dockerfile`)
+#### [`Dockerfile`](pipeline/Dockerfile)
 Defines the custom Docker image used for running the pipeline code.
 
 Includes:
@@ -47,7 +47,7 @@ Includes:
 
 ---
 
-#### [`docker-compose.yaml`]('pipeline/docker-compose.yaml')
+#### [`docker-compose.yaml`](pipeline/docker-compose.yaml)
 Docker Compose configuration for running the full local stack.
 
 Spins up services such as:
